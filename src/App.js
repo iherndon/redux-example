@@ -4,7 +4,7 @@ import { addTodo, toggleTodo } from './ducks/todos';
 
 class App extends Component {
   state = {
-    todoText: 'Sample'
+    todoText: ''
   }
   
   handleClick = () => {
